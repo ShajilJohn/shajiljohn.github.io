@@ -96,9 +96,9 @@
       const orb = breath.querySelector('.breath-orb');
       const ring = breath.querySelector('.breath-ring');
       const phases = [
-        { phase: 'in',   label: 'Breathe in',  dur: 4000 },
-        { phase: 'hold', label: 'Hold',        dur: 4000 },
-        { phase: 'out',  label: 'Breathe out', dur: 6000 }
+        { phase: 'in',   label: 'Heal',  dur: 4000 },
+        { phase: 'hold', label: 'Rehab', dur: 4000 },
+        { phase: 'out',  label: 'Return', dur: 6000 }
       ];
       let idx = 0, stepT = 0, swapT = 0;
 
